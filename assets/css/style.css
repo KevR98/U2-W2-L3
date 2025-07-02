@@ -133,7 +133,11 @@ table {
   color: #f4f4f4;
 }
 
-header {
+nav {
+  background-color: black;
+}
+
+section {
   background-color: #640fc5;
 }
 
@@ -172,6 +176,7 @@ section p {
   margin-top: 2em;
 }
 section .bottoni {
+  display: flex;
   margin-top: 2em;
 }
 

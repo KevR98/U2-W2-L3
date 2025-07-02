@@ -37,6 +37,7 @@ section {
   }
 
   .bottoni {
+    display: flex;
     @include m;
   }
 }
