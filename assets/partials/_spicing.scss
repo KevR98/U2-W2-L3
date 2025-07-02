@@ -1,0 +1,46 @@
+@mixin display {
+  display: flex;
+}
+
+@mixin p {
+  padding: 2em;
+}
+
+@mixin m {
+  margin-top: 2em;
+}
+
+nav {
+  @include p;
+  ul {
+    @include display;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+section {
+  @include p;
+  @include display;
+
+  div:nth-child(1) {
+    @include display;
+    flex-direction: column;
+    align-items: center;
+    @include p;
+  }
+
+  p {
+    @include m;
+  }
+
+  .bottoni {
+    @include m;
+  }
+}
+
+img {
+  width: 40%;
+}
